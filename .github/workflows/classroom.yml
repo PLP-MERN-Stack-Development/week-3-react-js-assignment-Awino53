@@ -22,7 +22,7 @@ jobs:
         run: npm install -g pnpm   
 
       - name: Install dependencies
-        run: cd "week three assignments/To-do-app" && pnpm install
+        run: cd "To-do-app" && pnpm install
 
       - name: Run Vite build
-        run: cd "week three assignments/To-do-app" && pnpm run build
+        run: cd "To-do-app" && pnpm run build
